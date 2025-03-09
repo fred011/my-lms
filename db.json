@@ -1,0 +1,396 @@
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NTkxNzk0MywianRpIjoiNjdjYWNkNTBkOGZiZWYwMDIzMjcwMDJiIiwiaWF0IjoxNzQxMzQ0MDgwLCJuYmYiOjE3NDEzNDQwODAsImV4cCI6MTc0MTQzMDQ4MH0.QjJW6OoMFd0K-aRr2AkpL08TwCejsg7M3xdEMCz6FAQ",
+  "user": {
+    "integrations": [
+      {
+        "business_name": "LMS Academy",
+        "business_type": "starter",
+        "short_name": null,
+        "id": 1398106,
+        "logged_in_user_role": {
+          "id": 34,
+          "name": "admin",
+          "description": "This role grants users the permissions to manage everything on the dashboard"
+        },
+        "country_code": "ZA",
+        "country": 3,
+        "mfa": {
+          "is_required": false,
+          "enforcement_deadline": null
+        }
+      }
+    ],
+    "email": "fmmphahle01@gmail.com",
+    "first_name": "Fred",
+    "last_name": "Morena",
+    "phone": "671464628",
+    "area_code": "0",
+    "calling_code": "+27",
+    "registration_complete": true,
+    "last_login": "2025-03-07T10:40:39.000Z",
+    "wt_access": "none",
+    "is_developer": true,
+    "job_title": "",
+    "truecaller_verified": false,
+    "drip_tag": "merchant - south africa",
+    "mfa_enabled": false,
+    "email_verified": true,
+    "id": 5917943,
+    "invited_by": null,
+    "current_integration": 1398106,
+    "passwordLastResetAt": null,
+    "createdAt": "2025-03-06T13:25:09.000Z",
+    "updatedAt": "2025-03-07T10:40:39.000Z",
+    "dashboard_preferences": {
+      "pagination": {
+        "use_cursor": true
+      },
+      "timezone": "UTC"
+    },
+    "display_state": "test",
+    "role": {
+      "value": 1759210014507007,
+      "name": "admin",
+      "description": "This role grants users the permissions to manage everything on the dashboard",
+      "integration": 0,
+      "service": "dashboard",
+      "id": 34,
+      "organization": 1,
+      "createdAt": "2018-05-10T23:40:26.000Z",
+      "updatedAt": "2018-09-12T17:28:31.000Z",
+      "isDeleted": false,
+      "is_custom": false
+    },
+    "permissions": [
+      "api-key-*",
+      "api-key-view",
+      "user-view",
+      "user-*",
+      "metrics-*",
+      "settings-*",
+      "settings-view",
+      "transaction-view",
+      "transaction-export",
+      "transaction-dispute",
+      "customer-view",
+      "customer-add",
+      "customer-*",
+      "transfer-view",
+      "transfer-*",
+      "transfer-export",
+      "balance-view",
+      "balance-export",
+      "page-view",
+      "page-*",
+      "plan-view",
+      "plan-*",
+      "settlement-view",
+      "settlement-export",
+      "paymentrequest-view",
+      "paymentrequest-*",
+      "subaccount-*",
+      "subaccount-view",
+      "user-add",
+      "customer-insights",
+      "accounts-*",
+      "accounts-view",
+      "charge-*",
+      "request-payout",
+      "product-view",
+      "product-*",
+      "pos-terminal-*",
+      "applepay-*",
+      "refund-pwt",
+      "corporate-cards-*",
+      "corporate-cards-view",
+      "issuing-*",
+      "issuing-view",
+      "connect-*"
+    ],
+    "show_mfa_feature": true
+  },
+  "selected_integration": {
+    "users": [],
+    "keys": [],
+    "terminals": [],
+    "starterintegration": [],
+    "integrationlocale": [
+      {
+        "id": 1363003,
+        "integration": 1398106,
+        "locale": 28,
+        "locale_overrides": null,
+        "createdAt": "2025-03-06T13:25:09.000Z",
+        "updatedAt": "2025-03-06T13:30:20.000Z"
+      }
+    ],
+    "business_name": "LMS Academy",
+    "description": "Online academy",
+    "rc_number": null,
+    "phone": "671464628",
+    "email": "fmmphahle01@gmail.com",
+    "address": null,
+    "product_name": null,
+    "registration_document_number": null,
+    "registration_document_type": null,
+    "primary_contact_name": null,
+    "primary_contact_email": null,
+    "primary_contact_phone": null,
+    "support_email": "fmmphahle01@gmail.com",
+    "chargeback_email": null,
+    "logo_path": "https://public-files-paystack-prod.s3.eu-west-1.amazonaws.com/integration-logos/paystack.jpg",
+    "integration_agreement_path": null,
+    "settlement_bank": null,
+    "account_number": null,
+    "registration_document_path": null,
+    "risk_level": "low",
+    "isw_category": 3,
+    "mcc_category": "8299",
+    "flat_rate": 1,
+    "charge_percentage": 2.9,
+    "international_flat_rate": 100,
+    "international_charge_percentage": 3.9,
+    "flat_threshhold": 2500,
+    "transfer_charge": 5000,
+    "settlement_schedule": "T2",
+    "test_redirect_url": null,
+    "test_webhook_endpoint": null,
+    "live_redirect_url": null,
+    "live_webhook_endpoint": null,
+    "test_integration_url": null,
+    "test_integration_instruction": null,
+    "email_notification": "instant",
+    "pwc_id": 102501,
+    "is_live": false,
+    "go_live_requested": false,
+    "go_live_requested_at": null,
+    "live_keys_requested": false,
+    "live_keys_requested_at": null,
+    "reviewed_at": null,
+    "setup_complete": false,
+    "receipts": true,
+    "display_state": "test",
+    "active": true,
+    "short_name": null,
+    "international_toggle_disabled": false,
+    "allow_international_cards": false,
+    "active_channels": [
+      "card",
+      "eft",
+      "qr"
+    ],
+    "allowed_currencies": [
+      "ZAR"
+    ],
+    "allow_whitelist": false,
+    "charge_from_dashboard": false,
+    "can_transfer": false,
+    "transfer_using_otp": true,
+    "payouts_on_hold": false,
+    "go_live_date": null,
+    "payments_session_timeout": 0,
+    "metadata": {
+      "new_checkout_enabled": true
+    },
+    "transfer_notification": "instant",
+    "business_category": null,
+    "business_size": "medium",
+    "business_type": "starter",
+    "website_url": null,
+    "social_urls": {
+      "twitter": null,
+      "facebook": null,
+      "instagram": null
+    },
+    "is_under_investigation": false,
+    "is_disabled": false,
+    "disable_reason": null,
+    "disable_at": null,
+    "identity_evidence_path": null,
+    "director_identity_evidence_path": null,
+    "bvn": null,
+    "bvn_date_of_birth": null,
+    "go_live_status": "none",
+    "registration_packet_path": null,
+    "is_deleted": false,
+    "default_currency": "ZAR",
+    "transfer_notification_to_recipient": "instant",
+    "send_transfer_email_otp": true,
+    "fast_checkout_enabled": false,
+    "id": 1398106,
+    "primary_user": 5917943,
+    "organization": 1,
+    "createdAt": "2025-03-06T13:25:09.000Z",
+    "updatedAt": "2025-03-06T13:31:30.000Z",
+    "transfer_fees": [
+      {
+        "fee": 300,
+        "currency": "ZAR"
+      }
+    ],
+    "consent_received": true,
+    "consent_data": {
+      "given_by": "fmmphahle01@gmail.com",
+      "given_at": "2025-03-06T13:25:09.000Z"
+    },
+    "attributes": {
+      "id": 1297651,
+      "integration": 1398106,
+      "country": {
+        "id": 3,
+        "active_for_dashboard_onboarding": true,
+        "name": "South Africa",
+        "iso_code": "ZA",
+        "default_currency_code": "ZAR",
+        "calling_code": "+27",
+        "integration_defaults": {},
+        "pilot_mode": false,
+        "relationships": {
+          "currency": {
+            "type": "currency",
+            "data": [
+              "ZAR"
+            ],
+            "supported_currencies": {
+              "ZAR": {
+                "bank": {
+                  "bank_type": "basa",
+                  "account_verification_required": true,
+                  "account_number_label": "accountNumber",
+                  "branch_code": false,
+                  "branch_code_type": "text",
+                  "account_name": true,
+                  "account_number_pattern": {
+                    "exact_match": false,
+                    "pattern": "^[0-9]{9,12}$"
+                  },
+                  "documents": [
+                    "ZA-BANK"
+                  ],
+                  "show_account_number_tooltip": false
+                },
+                "eft": {
+                  "account_number_pattern": {
+                    "exact_match": false,
+                    "pattern": "^[0-9]{10}$"
+                  },
+                  "placeholder": "050 123 456"
+                }
+              }
+            }
+          },
+          "integration_feature": {
+            "type": "integration_feature",
+            "data": []
+          },
+          "integration_type": {
+            "type": "integration_type",
+            "data": [
+              "ITYPE_006",
+              "ITYPE_007"
+            ]
+          },
+          "payment_method": {
+            "type": "payment_method",
+            "data": [
+              "PAYM_001"
+            ]
+          }
+        }
+      },
+      "industry": null,
+      "integration_type": {
+        "id": 7,
+        "code": "ITYPE_007",
+        "label": "starter",
+        "display_name": "Starter Business",
+        "description": "Choose this if your business is not registered yet",
+        "is_active": true,
+        "relationships": {
+          "kyc_requirement": {
+            "type": "kyc_requirement",
+            "data": [
+              "KYCREQ_036",
+              "KYCREQ_025",
+              "KYCREQ_045"
+            ]
+          }
+        },
+        "upgradable_to": [
+          "ITYPE_006"
+        ]
+      },
+      "legal_business_name": null,
+      "duplicated_from_integration": null,
+      "compliance_status": "PENDING",
+      "compliance_due_date": "2025-04-05T00:00:00.000Z",
+      "incorporation_date": null,
+      "country_code": "ZA",
+      "industry_code": "EDUCATION",
+      "registration_number": null,
+      "registration_type": null,
+      "ownership_type": null,
+      "industry_categories": "EDUCATION-VIRTUAL",
+      "area_code": "0",
+      "calling_code": "+27",
+      "form_three_evidence_path": null,
+      "settlement_account_type": "bank_account",
+      "international_requested": false,
+      "email_rules": null,
+      "compliance_documents_submitted": false,
+      "incorporated_before_2017": 0,
+      "has_refreshed_incorporation_documents": false,
+      "process_amex_cards": false,
+      "is_terminal_integration": false,
+      "mfa_is_required": false,
+      "mfa_enforcement_deadline": null,
+      "legal_agreements": null,
+      "has_saved_cards": null,
+      "saved_cards_enabled": null,
+      "passes_fees": null,
+      "direct_debit_enabled": true,
+      "createdAt": "2025-03-06T13:25:09.000Z",
+      "updatedAt": "2025-03-06T13:31:31.000Z"
+    },
+    "terminal_integration_attribute": null,
+    "is_terminal_active": false,
+    "is_dormant": false,
+    "is_registration_type_supported_for_terminal": false,
+    "office_address": {
+      "id": 740126,
+      "street_line_one": "64 lele mohlala street",
+      "street_line_two": null,
+      "post_code": "0699",
+      "model": "integration",
+      "model_row": 1398106,
+      "city": "Polokwane",
+      "state": "Limpopo",
+      "country": "South Africa",
+      "country_iso_code": "ZA",
+      "type": "office"
+    },
+    "registered_address": {},
+    "available_channels": [
+      "card",
+      "qr",
+      "apple_pay",
+      "eft"
+    ],
+    "agreements": {
+      "settlement_managed_account": {
+        "agreements": [],
+        "visible": false
+      }
+    },
+    "payouts_on_hold_reason": null,
+    "chargeback_emails": [
+      "fmmphahle01@gmail.com"
+    ],
+    "logged_in_user_role": {
+      "id": 34,
+      "name": "admin",
+      "description": "This role grants users the permissions to manage everything on the dashboard"
+    }
+  },
+  "token_expiry": 1741430480
+}
