@@ -9,7 +9,7 @@ import { CoursesList } from "@/components/courses-list";
 interface SearchPageProps {
   searchParams: {
     title: string;
-    categortId: string;
+    categoryId: string;
   };
 }
 
@@ -33,6 +33,7 @@ const SearchPage = async ({ searchParams }: SearchPageProps) => {
   return (
     <>
       <div className="px-6 pt-6 md:hidden md:mb-0 block">
+        {/* Ensure this is wrapped in the client-side SearchInput component */}
         <SearchInput />
       </div>
       <div className="p-6 space-y-4">
