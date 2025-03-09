@@ -1,5 +1,4 @@
-"use client"; // Ensures this component is only used client-side
-
+"use client"; // Mark this as client-side component
 import { cn } from "@/lib/utils";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import qs from "query-string";
@@ -9,10 +8,10 @@ interface CategoriesItemProps {
   value?: string;
 }
 
-export const CategoryItem = ({ label, value }: CategoriesItemProps) => {
+const CategoryItem = ({ label, value }: CategoriesItemProps) => {
   const pathname = usePathname();
   const router = useRouter();
-  const searchParams = useSearchParams();
+  const searchParams = useSearchParams(); // Client-side hook
 
   const currentCategoryId = searchParams.get("categoryId");
   const currentTitle = searchParams.get("title");
@@ -47,3 +46,5 @@ export const CategoryItem = ({ label, value }: CategoriesItemProps) => {
     </button>
   );
 };
+
+export default CategoryItem;
