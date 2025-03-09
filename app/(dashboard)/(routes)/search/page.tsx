@@ -1,3 +1,5 @@
+"use server";
+
 import { db } from "@/lib/db";
 import { Catagories } from "./_components/categories";
 import { SearchInput } from "@/components/search-input";
