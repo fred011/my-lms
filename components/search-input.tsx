@@ -3,7 +3,7 @@
 import { Search } from "lucide-react";
 import qs from "query-string";
 import { Input } from "@/components/ui/input";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useDebounce } from "@/hooks/use-debounce";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 
@@ -17,7 +17,8 @@ export const SearchInput = () => {
 
   const currentCategoryId = searchParams.get("categoryId");
 
-  useEffect(() => {
+  // Memoize the effect to ensure it doesn't change on every render
+  const updateUrl = useCallback(() => {
     const url = qs.stringifyUrl(
       {
         url: pathname,
@@ -30,7 +31,11 @@ export const SearchInput = () => {
     );
 
     router.push(url);
-  }, [debouncedValue, currentCategoryId, router, pathname]);
+  }, [debouncedValue, currentCategoryId, pathname, router]);
+
+  useEffect(() => {
+    updateUrl(); // Only call updateUrl when necessary
+  }, [debouncedValue, updateUrl]); // `updateUrl` will stay stable due to `useCallback`
 
   return (
     <div className="relative">
