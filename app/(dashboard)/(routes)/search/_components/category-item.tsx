@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Ensures this component is only used client-side
 
 import { cn } from "@/lib/utils";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
