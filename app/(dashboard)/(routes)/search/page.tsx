@@ -1,6 +1,5 @@
-"use server"; // Server-side logic
 import { db } from "@/lib/db";
-import Catagories from "./_components/categories"; // Import Categories
+import { Catagories } from "./_components/categories";
 import { SearchInput } from "@/components/search-input";
 import { GetCourses } from "@/actions/get-courses";
 import { auth } from "@clerk/nextjs/server";
@@ -10,7 +9,7 @@ import { CoursesList } from "@/components/courses-list";
 interface SearchPageProps {
   searchParams: {
     title: string;
-    categoryId: string;
+    categortId: string;
   };
 }
 
@@ -37,8 +36,7 @@ const SearchPage = async ({ searchParams }: SearchPageProps) => {
         <SearchInput />
       </div>
       <div className="p-6 space-y-4">
-        <Catagories items={categories} />{" "}
-        {/* This renders Categories with CategoryItem */}
+        <Catagories items={categories} />
         <CoursesList items={courses} />
       </div>
     </>

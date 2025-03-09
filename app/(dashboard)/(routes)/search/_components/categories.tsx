@@ -1,22 +1,18 @@
-"use client"; // Mark this as client-side component
-import { Suspense } from "react"; // Import Suspense
+"use client";
+
 import { Category } from "@prisma/client";
-import CategoryItem from "./category-item"; // Import CategoryItem
+import { CategoryItem } from "./category-item";
 
 interface CategoriesProps {
   items: Category[];
 }
 
-const Categories = ({ items }: CategoriesProps) => {
+export const Catagories = ({ items }: CategoriesProps) => {
   return (
     <div className="flex items-center gap-x-2 overflow-x-auto pb-2">
-      <Suspense fallback={<div>Loading categories...</div>}>
-        {items.map((item) => (
-          <CategoryItem key={item.id} label={item.name} value={item.id} />
-        ))}
-      </Suspense>
+      {items.map((item) => (
+        <CategoryItem key={item.id} label={item.name} value={item.id} />
+      ))}
     </div>
   );
 };
-
-export default Categories;
